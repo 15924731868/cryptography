@@ -50,26 +50,11 @@ k=23 : QXIHFPZEBXMPELTJBQEBZLAB
 k=24 : PWHGEOYDAWLODKSIAPDAYKZA
 k=25 : OVGFDNXCZVKNCJRHZOCZXJYZ
 
-四、明文判断结论
+四、正确结果说明
+- 正确的密钥 k=20
+  解密后明文：TALKISCHEAPSHOWMETHECODE
+  断句后：TALK IS CHEAP SHOW ME THE CODE（空谈无益，亮出代码。）
 
-• 所有密钥解密结果均无连续英文单词/有意义语句
-
-• 密文 NUFECMWBYUJMBIQGYNBYWIXY 不像是标准英文凯撒密码
-
-• 可能情况：
-
-1. 不是凯撒密码
-
-2. 是凯撒密码但为非英文（如拼音、代号、自定义编码）
-
-3. 加密方向相反（应后移而非前移）
-
-4. 密钥不在 1~25 或有额外变换
-
-五、建议
-
-1. 确认是否为凯撒密码
-
-2. 确认语言：英文 / 拼音 / 其他
-
-3. 确认加密方向：加密是左移还是右移
+- 判断依据：
+1. 凯撒密码解密后，只有 k=20 对应的结果包含可识别的英文单词（如 TALK），符合自然语言特征。
+2. 其他密钥对应的解密结果均为无意义的字母组合，不具备可读性，因此可排除。
