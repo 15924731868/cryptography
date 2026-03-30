@@ -11,4 +11,4 @@
 3. **内容验证**：解密得到的字节序列全部落在可打印ASCII范围内，且形成的英文句子具有完整语义，从而确认攻击有效。
 
 ## 三、解密得到的明文
-The secret message is: When using a stream cipher, never use the key more than once.
+The secret message is: when using a stream cipher, never use the key more than once.
